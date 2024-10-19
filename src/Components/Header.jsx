@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div>
-      <div className='flex items-center justify-between'>
+      <div className='flex items-center justify-around'>
         <div>
           <h3>Zeeshan Ahmed Siddiqui</h3>
         </div>
