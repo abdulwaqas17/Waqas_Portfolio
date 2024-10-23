@@ -42,7 +42,21 @@ const About = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-3xl font-bold text-center mb-5 text-[orange] mt-5">Skills</h2>
+        <div className="flex flex-col items-center">
+          <h2 className="text-3xl font-bold text-center mb-5 text-[orange] mt-5">Skills</h2>
+          <div className='flex items-center  flex-col bg-slate-100 border-2 border-[orange] mt-4 w-[500px] h-[300px] rounded-md shadow-2xl hover:shadow-slate-800'>
+            <h2>Frontend development</h2>
+            <div className="flex items-center justify-around gap-2">
+              <div>html</div>
+              <div>html</div>
+              <div>html</div>
+              <div>html</div>
+              <div>html</div>
+              <div>html</div>
+              <div>html</div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   )
