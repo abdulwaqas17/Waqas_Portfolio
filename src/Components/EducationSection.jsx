@@ -6,13 +6,13 @@ const EducationSection = () => {
       degree: "High School Certificate",
       institution: "DJ Sindh Govt. Science College Karachi",
       graduationYear: "Continue",
-      details: "Key Courses: Data Structures, Web Development, AI & Machine Learning",
+      details: "Pre-engineering",
     },
     {
       degree: "Secondary School Certificate",
       institution: "New Daisy Secondary Scool",
       graduationYear: "2023",
-      details: "Achievements: Top 10% of Class, Math Club President",
+      details: "Science",
     },
   ];
 
@@ -23,7 +23,7 @@ const EducationSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {educationData.map((edu, index) => (
             <div key={index} className="bg-white shadow-md rounded-lg p-6">
-              <h3 className="text-2xl font-semibold mb-2">{edu.degree}</h3>
+              <h3 className="text-2xl font-semibold mb-2 text-[#2aa8d2]">{edu.degree}</h3>
               <p className="text-lg text-gray-600 mb-4">{edu.institution}</p>
               <p className="text-gray-700">Graduated: {edu.graduationYear}</p>
               <p className="text-gray-500">{edu.details}</p>

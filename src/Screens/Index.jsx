@@ -15,13 +15,13 @@ const Home = () => {
 
         <div>
           <p className='text-3xl font-light text-gray-700'>I'm</p>
-          <h2 className='text-3xl font-bold text-orange-500 mt-2 leading-tight'>
+          <h2 className='text-3xl font-bold text-[#2aa8d2] mt-2 leading-tight'>
             ZEESHAN AHMED SIDDIQUI
           </h2>
         </div>
 
         <p className='text-lg text-gray-800 typewriter'>
-          Front-end Web Developer <span className='text-orange-500'>|</span> UI/UX Designer
+          Front-end Web Developer <span className='text-[#2aa8d2]'>|</span> UI/UX Designer
         </p>
 
         <p className='text-lg text-gray-600 leading-relaxed'>
@@ -29,7 +29,7 @@ const Home = () => {
         </p>
 
         <Link to='/contact'>
-          <button className='px-6 py-4 bg-orange-500 text-white shadow-lg hover:bg-orange-600 transition duration-300'>
+          <button className='px-6 py-4 bg-[#2aa8d2] text-white shadow-lg hover:bg-sky-700 transition duration-300'>
             Hire Me
           </button>
         </Link>
