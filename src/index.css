@@ -12,6 +12,8 @@ body{
 }
 .toggle{
   display: none;
+  visibility: visible;
+  background: white;
 }
 @media  screen and (max-width: 600px) {
   .toggle{
