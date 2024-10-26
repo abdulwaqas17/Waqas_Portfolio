@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <div>
          
-            <Link to="/contact"><button className='px-6 py-4 bg-white text-[#2aa8d2] shadow-lg hover:bg-sky-700 transition duration-300'>Contact Me</button></Link>
+            <Link to="/contact"><button className='px-6 py-4 bg-transparent border-2 border-white text-white shadow-lg hover:bg-sky-700 transition duration-300'>Contact Me</button></Link>
          
          
         </div>

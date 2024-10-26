@@ -4,6 +4,7 @@ import { FaDownload, FaHeadset, FaLightbulb } from 'react-icons/fa'
 import { GrCompliance } from 'react-icons/gr'
 import { MdVerified } from 'react-icons/md'
 import EducationSection from '../Components/EducationSection'
+import Card from '../Components/Card'
 
 const About = () => {
   
@@ -16,21 +17,9 @@ const About = () => {
           </div>
           <div className='flex flex-col gap-8 '>
             <div className='flex flex-row gap-4 '>
-              <div className='flex flex-col items-center gap-1 border-2 border-sky-300 rounded-md p-2  hover:bg-gray-100'>
-                <div><FaLightbulb size={20} color='#2aa8d2' /></div>
-                <p>Experience</p>
-                <p className='text-gray-400'>2+ years</p>
-              </div>
-              <div className='flex flex-col items-center gap-1 border-2 border-sky-300 rounded-md p-2 w-[120px] hover:bg-gray-100'>
-                <div><GrCompliance size={20} color='#2aa8d2' /></div>
-                <p>Completed</p>
-                <p className='text-gray-400'>25+ projects</p>
-              </div>
-              <div className='flex flex-col items-center gap-1 border-sky-300 border-2 rounded-md w-[120px] p-2 hover:bg-gray-100'>
-                <div><FaHeadset size={20} color='#2aa8d2' /></div>
-                <p>Support</p>
-                <p className='text-gray-400'>24/7 Online</p>
-              </div>
+              <Card icon={<FaLightbulb size={20} color='#2aa8d2' />} title={'Experience'} number={'2+ years'}/>
+              <Card icon={<GrCompliance size={20} color='#2aa8d2' />} title={'Completed'} number={'25+ Projects'}/>
+              <Card icon={<FaHeadset size={20} color='#2aa8d2' />} title={'Support'} number={'24/7 Online'}/>
             </div>
             <div><p className='text-sm text-gray-600 leading-relaxed '>I am a highly motivated and detail-oriented front-end web developer <br /> seeking a challenging role that utilizes my skills in HTML, CSS, JavaScript,  <br />React JS and various frameworks to build  responsive, user-friendly, and  <br />modern web applications. I aim to continuously learn and grow as a  developer,  <br />staying up to date with industry trends and best practices to deliver high-quality <br /> solutions.</p>
             </div>

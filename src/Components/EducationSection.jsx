@@ -14,13 +14,25 @@ const EducationSection = () => {
       graduationYear: "2023",
       details: "Science",
     },
+    {
+      degree: "Web Development",
+      institution: "Alkhidmat IT Program Bano Qabil",
+      graduationYear: "2024",
+      details: "Frontend Web Development",
+    },
+    {
+      degree: "Certificate In Freelancing",
+      institution: "Digi Skills Training Program",
+      graduationYear: "2023",
+      details: "Freelancing",
+    },
   ];
 
   return (
     <section id="education" className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
         {/* <h2 className="text-4xl font-bold text-center mb-12">Education</h2> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-3 md:grid-cols-2 gap-8">
           {educationData.map((edu, index) => (
             <div key={index} className="bg-white shadow-md rounded-lg p-6">
               <h3 className="text-2xl font-semibold mb-2 text-[#2aa8d2]">{edu.degree}</h3>
