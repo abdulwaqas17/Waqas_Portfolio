@@ -34,7 +34,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center bd">
           <h2 className="text-3xl font-bold text-center mb-5 text-[#2aa8d2] mt-5">Skills</h2>
           <div className='flex items-center justify-center flex-col bg-slate-100 border-2 border-[#2aa8d2] mt-4 w-[500px] h-[300px] rounded-md shadow-2xl hover:shadow-slate-800'>
             <h2 className='font-bold underline'>Frontend development & UI/UX Design</h2>
@@ -74,7 +74,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className='bd'>
         <h2 className="text-3xl font-bold text-center mb-5 text-[#2aa8d2] mt-16">Education</h2>
        <EducationSection/>
         </div>

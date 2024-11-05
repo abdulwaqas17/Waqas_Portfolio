@@ -9,7 +9,7 @@ import Toggle from './Drawer'
 const Header = () => {
   return (
     <div>
-      <div  className='flex items-center justify-around w-full h-[60px] fixed z-[2px] top-0 bg-[#2aa8d2] border-b-2 border-b-[#2aa8d2]'>
+      <div  className='flex items-center justify-around w-full h-[60px] fixed z-[4] top-0 bg-[#2aa8d2] border-b-2 border-b-[#2aa8d2]'>
         <div>
           <h3 className='font-bold text-white text-xl'>Zeeshan Ahmed Siddiqui</h3>
         </div>
