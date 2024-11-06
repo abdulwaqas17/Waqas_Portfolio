@@ -74,7 +74,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100082655704934" target='_blank'><FaFacebook size='30' color='#2aa8d2' /></a>
             <a href="https://www.linkedin.com/in/zeeshan-siddiqui-5b185b297/" target='_blank'><FaLinkedin size='30' color='#2aa8d2' /></a>
             <a href="https://github.com/Zeeshan-Siddiqui123/" target='_blank'><FaGithub size='30' color='#2aa8d2' /></a>
-            <a href="" target='_blank'><FaXTwitter size='30' color='#2aa8d2' /></a>
+            <a href=""><FaXTwitter size='30' color='#2aa8d2' /></a>
             <a href="https://www.fiverr.com/s/38am11Y" target='_blank'><TbBrandFiverr size='30' color='#2aa8d2' /></a>
           </div>
         </div>
