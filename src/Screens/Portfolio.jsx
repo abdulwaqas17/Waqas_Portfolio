@@ -10,7 +10,9 @@ const Portfolio = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch('https://surf-sunny-sunfish.glitch.me/projects');
+        const response = await fetch('https://portfolio-server-jopl.onrender.com/projects');
+        console.log('https://portfolio-server-jopl.onrender.com/projects');
+        
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

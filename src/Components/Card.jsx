@@ -24,7 +24,7 @@ export const Card2 = (props) => {
     <div>
       <section  className="p-10 bg-white">
         <div>
-          <div className='max-w-xs rounded-lg border-sky-300 border-2 overflow-hidden shadow-lg transition-transform transform hover:scale-105'>
+          <div className='max-w-xs rounded-lg  overflow-hidden shadow-lg transition-transform transform hover:scale-105'>
             <img src={image} alt="My Image" className='h-[250px] w-[300px]'/>
             <h3 className="text-xl font-bold ml-3">{title}</h3>
             <p className="mt-2 text-gray-600 ml-3 w-[280px]">{description}.</p>
