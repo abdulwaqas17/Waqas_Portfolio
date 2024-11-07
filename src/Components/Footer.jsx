@@ -43,7 +43,7 @@ const Footer = () => {
                 placeholder='Your email ID'
                 className='footer-input shadow-lg py-3 px-5 text-black border-none '
                 value={email}
-                onChange={(e) => setEmail(.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <button
                 type="submit"
