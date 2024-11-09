@@ -35,45 +35,46 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-col items-center bd">
-          <h2 className="text-3xl font-bold text-center mb-5 text-[#2aa8d2] mt-5">Skills</h2>
-          <div className='flex items-center justify-center flex-col bg-slate-100 border-2 border-[#2aa8d2] mt-4 w-[500px] h-[300px] rounded-md shadow-2xl hover:shadow-slate-800'>
-            <h2 className='font-bold underline'>Frontend development & UI/UX Design</h2>
-            <div className="flex items-center justify-around gap-2 flex-wrap mt-5">
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>Html <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>Css <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>JavaScript <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>React Js <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>Bootstrap <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>Git & GitHub <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>Tailwind Css <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
-              </div>
-              <div className='flex gap-1 items-center'>
-                <MdVerified color="#2aa8d2" size="20"/>
-                <p className='text-lg'>Adobe XD <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <h2 className="text-3xl font-bold text-center mb-5 text-[#2aa8d2] mt-5">Skills</h2>
+  <div className='flex items-center justify-center flex-col bg-slate-100 border-2 border-[#2aa8d2] mt-4 w-full sm:w-[500px] h-auto sm:h-[300px] rounded-md shadow-2xl hover:shadow-slate-800'>
+    <h2 className='font-bold underline text-center'>Frontend development & UI/UX Design</h2>
+    <div className="flex items-center justify-center gap-4 flex-wrap mt-5">
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>Html <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>Css <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>JavaScript <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>React Js <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>Bootstrap <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>Git & GitHub <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>Tailwind Css <br /> <h6 className='text-sm text-gray-400 '>Intermediate</h6></p>
+      </div>
+      <div className='flex gap-1 items-center'>
+        <MdVerified color="#2aa8d2" size="20"/>
+        <p className='text-lg'>Adobe XD <br /> <h6 className='text-sm text-gray-400 '>Advance</h6></p>
+      </div>
+    </div>
+  </div>
+</div>
+
         <div className='bd'>
         <h2 className="text-3xl font-bold text-center mb-5 text-[#2aa8d2] mt-16">Education</h2>
        <EducationSection/>

@@ -5,26 +5,26 @@ import '../index.css';
 
 const Home = () => {
   return (
-    <div className='flex items-center justify-center gap-12 px-10 py-16 flex-wrap-reverse home-bg'>
+    <div className='flex items-center justify-center gap-12 px-10 py-16 flex-wrap-reverse home-bg max-sm:mt-5'>
       {/* Left Content Section */}
-      <div className='flex flex-col gap-6 max-w-lg'>
+      <div className='flex flex-col items-center gap-6 max-w-lg'>
         <div className='flex items-center gap-2'>
           <p className='text-3xl font-light text-gray-800'>Hi,</p>
           <IoMdHand size={35} color='orange' className='-mt-2 animate-waving-hand' />
         </div>
 
         <div>
-          <p className='text-3xl font-light text-gray-700'>I'm</p>
-          <h2 className='text-3xl font-bold text-[#2aa8d2] mt-2 leading-tight'>
+          <p className='text-3xl font-light text-center text-gray-700'>I'm</p>
+          <h2 className='text-2xl  font-bold text-[#2aa8d2] mt-2 leading-tight sm:text-3xl'>
             ZEESHAN AHMED SIDDIQUI
           </h2>
         </div>
 
-        <p className='text-lg text-gray-800 typewriter'>
+        <p className='text-sm text-gray-800 typewriter sm:text-lg'>
           Front-end Web Developer <span className='text-[#2aa8d2]'>|</span> UI/UX Designer
         </p>
 
-        <p className='text-lg text-gray-600 leading-relaxed'>
+        <p className='text-lg text-gray-600  text-center leading-relaxed'>
           I’m a creative web developer based in Pakistan, passionate and dedicated to my work.
         </p>
 

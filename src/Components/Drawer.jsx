@@ -28,13 +28,13 @@ const showLoading = () => {
             <div className='w-[60px] h-[60px] rounded-full border bg'></div>
             <h2 className='text-xl font-bold ml-2 text-[#2aa2d2]'>Zeeshan Ahmed Siddiqui</h2>
           </div>}
-        placement="bottom"
+        placement="right"
         open={open}
         loading={loading}
         onClose={() => setOpen(false)}
       >
         
-        <div className='flex items-center flex-row justify-center gap-4 mt-16'>
+        <div className='flex items-center flex-col justify-center gap-4 mt-16'>
           {routes.map(({ path, label, icon }, index)=>(
             <NavLink key={index} to={path} onClick={() => setOpen(false)} className={({isActive})=>
              isActive ? 'text-[#18586d]  text-xl underline font-bold': ' text-xl text-[#2aa8d2] hover:text-[#18586d]'}>
