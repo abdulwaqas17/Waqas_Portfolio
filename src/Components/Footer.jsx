@@ -41,13 +41,13 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder='Your email ID'
-                className='footer-input shadow-lg py-3 px-5 text-black border-none '
+                className='footer-input rounded-md shadow-lg py-3 px-5 text-black border-none '
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button
                 type="submit"
-                className='bg-[#2aa8d2] text-white  text-center px-5 py-3 shadow-lg hover:bg-sky-700 transition duration-300 subscribe'
+                className='bg-[#2aa8d2] text-white rounded-md text-center px-5 py-3 shadow-lg hover:bg-sky-700 transition duration-300 subscribe'
               >
                 Subscribe
               </button>
