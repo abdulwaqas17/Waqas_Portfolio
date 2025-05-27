@@ -11,25 +11,25 @@ export const routes = [
         screen: <Home/>,
         path: "/",
         label: "Home",
-        icon : <FaHome size={30} color="#2aa8d2" />
+        icon : <FaHome size={30} className="text-primaryColor" />
     },
     {
         screen: <About/>,
         path: "/about",
         label: "About",
-        icon: <FaAddressCard size={30} color="#2aa8d2" />
+        icon: <FaAddressCard size={30} className="text-primaryColor" />
 
     },
     {
         screen: <Portfolio/>,
         path: "/portfolio",
         label: "Portfolio",
-        icon: <IoBriefcaseSharp size={30} color="#2aa8d2"/>
+        icon: <IoBriefcaseSharp size={30} className="text-primaryColor"/>
     },
     {
         screen: <Services/>,
         path: "/services",
         label: "Services",
-        icon: <MdMiscellaneousServices size={30} color="#2aa8d2"/>
+        icon: <MdMiscellaneousServices size={30} className="text-primaryColor"/>
     },
 ] 

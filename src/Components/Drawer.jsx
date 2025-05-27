@@ -26,7 +26,7 @@ const showLoading = () => {
         destroyOnClose
         title={<div className='footer-name flex items-center justify-center gap-0'>
             <div className='w-[60px] h-[60px] rounded-full border bg'></div>
-            <h2 className='text-xl font-bold ml-2 text-[#2aa2d2]'>Zeeshan Ahmed Siddiqui</h2>
+            <h2 className='text-xl font-bold ml-2 text-[#219e8d]'>Muhammad Waqas</h2>
           </div>}
         placement="right"
         open={open}
@@ -37,7 +37,7 @@ const showLoading = () => {
         <div className='flex items-center flex-col justify-center gap-4 mt-16'>
           {routes.map(({ path, label, icon }, index)=>(
             <NavLink key={index} to={path} onClick={() => setOpen(false)} className={({isActive})=>
-             isActive ? 'text-[#18586d]  text-xl underline font-bold': ' text-xl text-[#2aa8d2] hover:text-[#18586d]'}>
+             isActive ? 'text-[#18586d]  text-xl underline font-bold': ' text-xl text-primaryColor hover:text-[#2d7a70]'}>
              <div className='flex gap-2'>{icon}{label}</div>
             </NavLink>
           ))}
