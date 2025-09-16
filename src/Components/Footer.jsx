@@ -55,7 +55,7 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="bg-primaryColor text-white rounded-md text-center px-5 py-3 shadow-lg hover:bg-sky-700 transition duration-300 subscribe"
+                className="bg-primaryColor text-white rounded-md text-center px-5 py-3 shadow-lg hover:bg-teal-600 transition duration-300 subscribe"
               >
                 Subscribe
               </button>
@@ -79,23 +79,23 @@ const Footer = () => {
             <p className="text-black">Contact</p>
           </div>
           <div className="flex space-x-4 mb-4 md:mb-0">
-            <a href="#">
-              <FaInstagram size="30" className="text-primaryColor" />
+            <a href="https://www.instagram.com/muhammad_waqas2005/?hl=en" target="_blank">
+              <FaInstagram size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61580701082993" target="_blank"
            
             >
-              <FaFacebook size="30" className="text-primaryColor" />
+              <FaFacebook size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />
             </a>
             <a
               href="https://www.linkedin.com/in/muhammad-waqas-03a668323"
               target="_blank"
             >
-              <FaLinkedin size="30" className="text-primaryColor" />
+              <FaLinkedin size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />
             </a>
             <a href="https://github.com/abdulwaqas17" target="_blank">
-              <FaGithub size="30" className="text-primaryColor" />
+              <FaGithub size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />
             </a>
            
           </div>

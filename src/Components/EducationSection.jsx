@@ -5,7 +5,7 @@ const EducationSection = () => {
     {
       degree: "High School Certificate",
       institution: "Govt. Science and Commerce College Karachi",
-      graduationYear: "Continue",
+      graduationYear: "2023-2025",
       details: "Pre-engineering",
     },
     {

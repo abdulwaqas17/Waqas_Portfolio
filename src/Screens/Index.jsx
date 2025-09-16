@@ -25,8 +25,8 @@ const Home = () => {
         </div>
 
         <p className="text-sm text-gray-800 typewriter sm:text-lg">
-          Front-end Web Developer <span className="text-primaryColor">|</span>{" "}
-          UI/UX Designer
+          Mern Stack Developer <span className="text-primaryColor">|</span>{" "}
+          Website Designer
         </p>
 
         <p className="text-lg text-gray-600  text-center leading-relaxed">
@@ -35,7 +35,7 @@ const Home = () => {
         </p>
 
         <Link to="/contact">
-          <button className="px-6 py-4 bg-primaryColor text-white shadow-lg hover:bg-sky-700 transition duration-300">
+          <button className="px-6 py-4 bg-primaryColor text-white shadow-lg hover:bg-teal-600 transition duration-300">
             Hire Me
           </button>
         </Link>

@@ -25,7 +25,7 @@ const About = () => {
               <Card
                 icon={<GrCompliance size={20} className="text-primaryColor" />}
                 title={"Completed"}
-                number={"50+ Projects"}
+                number={"5+ Projects"}
               />
               <Card
                 icon={<FaHeadset size={20} className="text-primaryColor" />}
@@ -47,8 +47,8 @@ const About = () => {
               </p>
             </div>
             <div>
-              <a href="/images/Muhammad_Waqas_CV1.pdf" download>
-                <button className="flex items-center justify-center gap-1 px-6 py-4 bg-primaryColor text-white shadow-lg hover:bg-sky-700 transition duration-300">
+              <a href="/images/Muhammad_Waqas_CV.pdf" download>
+                <button className="flex items-center justify-center gap-1 px-6 py-4 bg-primaryColor text-white shadow-lg hover:bg-teal-600 transition duration-300">
                   <p>Download CV</p>
                   <div>
                     <FaDownload />
@@ -62,24 +62,18 @@ const About = () => {
           <h2 className="text-3xl font-bold text-center mb-5 text-primaryColor mt-5">
             Skills
           </h2>
-          <div className="flex items-center justify-center flex-col bg-slate-100 border-2 border-primaryColor mt-4 w-full sm:w-[500px] h-auto sm:h-[300px] rounded-md shadow-2xl hover:shadow-slate-800">
+          <div className="flex items-center justify-center flex-col bg-slate-100 border-2 border-primaryColor mt-4 w-full sm:w-[500px] h-auto sm:h-[300px] rounded-md shadow-xl hover:shadow-slate-400">
             <h2 className="font-bold underline text-center">
-              Frontend & Backend Development
+              Mern Stack Developer
             </h2>
             <div className="flex items-center justify-center gap-4 flex-wrap mt-5">
-              <div className="flex gap-1 items-center">
-                <MdVerified className="text-primaryColor" size="20" />
-                <p className="text-lg">
-                  Html <br />{" "}
-                  <h6 className="text-sm text-gray-400 ">Advance</h6>
-                </p>
-              </div>
-              <div className="flex gap-1 items-center">
+            
+              {/* <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
                   Css <br /> <h6 className="text-sm text-gray-400 ">Advance</h6>
                 </p>
-              </div>
+              </div> */}
               <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
@@ -91,6 +85,13 @@ const About = () => {
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
                   React Js <br />{" "}
+                  <h6 className="text-sm text-gray-400 ">Advance</h6>
+                </p>
+              </div>
+                <div className="flex gap-1 items-center">
+                <MdVerified className="text-primaryColor" size="20" />
+                <p className="text-lg">
+                  Next js<br />{" "}
                   <h6 className="text-sm text-gray-400 ">Intermediate</h6>
                 </p>
               </div>
