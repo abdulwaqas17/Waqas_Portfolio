@@ -47,7 +47,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <a href="/images/Muhammad_Waqas_CV.pdf" download>
+              <a href="/images/Waqas_Cv.pdf" download>
                 <button className="flex items-center justify-center gap-1 px-6 py-4 bg-primaryColor text-white shadow-lg hover:bg-teal-600 transition duration-300">
                   <p>Download CV</p>
                   <div>
@@ -68,12 +68,18 @@ const About = () => {
             </h2>
             <div className="flex items-center justify-center gap-4 flex-wrap mt-5">
             
-              {/* <div className="flex gap-1 items-center">
+              <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
-                  Css <br /> <h6 className="text-sm text-gray-400 ">Advance</h6>
+                  HTML <br /> <h6 className="text-sm text-gray-400 ">Advance</h6>
                 </p>
-              </div> */}
+              </div>
+              <div className="flex gap-1 items-center">
+                <MdVerified className="text-primaryColor" size="20" />
+                <p className="text-lg">
+                  CSS <br /> <h6 className="text-sm text-gray-400 ">Advance</h6>
+                </p>
+              </div>
               <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
@@ -113,6 +119,20 @@ const About = () => {
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
                   Mongo DB <br />{" "}
+                  <h6 className="text-sm text-gray-400 ">Intermediate</h6>
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <MdVerified className="text-primaryColor" size="20" />
+                <p className="text-lg">
+                  SQL <br />{" "}
+                  <h6 className="text-sm text-gray-400 ">Intermediate</h6>
+                </p>
+              </div>
+              <div className="flex gap-1 items-center">
+                <MdVerified className="text-primaryColor" size="20" />
+                <p className="text-lg">
+                  React Native <br />{" "}
                   <h6 className="text-sm text-gray-400 ">Intermediate</h6>
                 </p>
               </div>

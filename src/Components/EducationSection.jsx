@@ -26,6 +26,12 @@ const EducationSection = () => {
       graduationYear: "2023",
       details: "Freelancing",
     },
+    {
+      degree: "MERN Stack Internship",
+      institution: "Applotech",
+      graduationYear: "2025",
+      details: "Mern Stack Developer",
+    },
   ];
 
   return (
