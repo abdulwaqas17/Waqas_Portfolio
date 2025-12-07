@@ -20,7 +20,7 @@ const Home = () => {
         <div>
           <p className="text-3xl font-light text-center text-gray-700">I'm</p>
           <h2 className="text-2xl  font-bold text-primaryColor mt-2 leading-tight sm:text-3xl">
-            MUHAMMAD WAQAS
+            ABDUL WAQAS
           </h2>
         </div>
 

@@ -37,8 +37,8 @@ const About = () => {
               <p className="text-sm text-gray-600 leading-relaxed ">
                 I am a highly motivated and detail-oriented front-end web
                 developer <br /> seeking a challenging role that utilizes my
-                skills in HTML, CSS, JavaScript, <br />
-                React JS and various frameworks to build responsive,
+                skills in Javascript, React Js, Next Js<br />
+                Node JS, Express JS and Mongo DB to build responsive,
                 user-friendly, and <br />
                 modern web applications. I aim to continuously learn and grow as
                 a developer, <br />
@@ -47,7 +47,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <a href="/images/Waqas_Cv.pdf" download>
+              <a href="/images/abdul_waqas_cv.pdf" download>
                 <button className="flex items-center justify-center gap-1 px-6 py-4 bg-primaryColor text-white shadow-lg hover:bg-teal-600 transition duration-300">
                   <p>Download CV</p>
                   <div>
@@ -105,27 +105,27 @@ const About = () => {
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
                   Node JS <br />{" "}
-                  <h6 className="text-sm text-gray-400 ">Advance</h6>
+                  <h6 className="text-sm text-gray-400 ">Intermediate</h6>
                 </p>
               </div>
               <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
                   Express JS <br />{" "}
-                  <h6 className="text-sm text-gray-400 ">Intermediate</h6>
+                  <h6 className="text-sm text-gray-400 ">Advance</h6>
                 </p>
               </div>
               <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
                   Mongo DB <br />{" "}
-                  <h6 className="text-sm text-gray-400 ">Intermediate</h6>
+                  <h6 className="text-sm text-gray-400 ">Advance</h6>
                 </p>
               </div>
               <div className="flex gap-1 items-center">
                 <MdVerified className="text-primaryColor" size="20" />
                 <p className="text-lg">
-                  SQL <br />{" "}
+                  My SQL <br />{" "}
                   <h6 className="text-sm text-gray-400 ">Intermediate</h6>
                 </p>
               </div>

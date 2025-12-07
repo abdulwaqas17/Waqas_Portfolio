@@ -11,7 +11,7 @@ const Header = () => {
     <div>
       <div  className='flex items-center justify-around w-full h-[60px] fixed z-[4] top-0 bg-primaryColor border-b-2 border-b-primaryColor'>
         <div>
-          <h3 className='font-bold text-white text-xl'>Muhammad Waqas</h3>
+          <h3 className='font-bold text-white text-xl'>Abdul Waqas</h3>
         </div>
         <div className='flex items-center flex-row gap-4 nav-linkk'>
           {routes.map(({ path, label }, index)=>(

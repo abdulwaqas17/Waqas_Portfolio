@@ -24,15 +24,15 @@ const Portfolio = () => {
       url: "https://hsoutfitters.com/",
     },
 
-    {
-      projectId: 6,
-      title: "Applotech (Poftfolio)",
-      image: "/images/applotech.png",
-      description:
-        "Collaborated on developing Applotech Software House’s official portfolio website using Next.js, contributing to design, structure, and functionality.",
-      techs: ["Live", "Next Js", "Frammer Motion"],
-      url: "https://www.applotech.com/",
-    },
+    // {
+    //   projectId: 6,
+    //   title: "Applotech (Poftfolio)",
+    //   image: "/images/applotech.png",
+    //   description:
+    //     "Collaborated on developing Applotech Software House’s official portfolio website using Next.js, contributing to design, structure, and functionality.",
+    //   techs: ["Live", "Next Js", "Frammer Motion"],
+    //   url: "https://www.applotech.com/",
+    // },
     {
       projectId: 14,
       title: "Healt Mate",
@@ -144,15 +144,15 @@ const Portfolio = () => {
       techs: ["HTML", "CSS", "Bootstrap", "Figma"],
       url: "https://hackathonmodule1.netlify.app/",
     },
-    // {
-    //   projectId: 12,
-    //   title: "Rock Paper Scissors Game",
-    //   image: "/images/rps.jpg",
-    //   description:
-    //     "Built a full-featured e-commerce platform with multi-role authentication (User, Admin, Employee) using JWT and NodeMailer for password recovery.",
-    //   techs: ["HTML", "CSS","JavaScript"],
-    //   url: "https://abdulwaqas17.github.io/R-P-S_Game/",
-    // },
+    {
+      projectId: 12,
+      title: "Rock Paper Scissors Game",
+      image: "/images/rps.jpg",
+      description:
+        "Built a full-featured e-commerce platform with multi-role authentication (User, Admin, Employee) using JWT and NodeMailer for password recovery.",
+      techs: ["HTML", "CSS","JavaScript"],
+      url: "https://abdulwaqas17.github.io/R-P-S_Game/",
+    },
   ];
 
   // const [projects, setProjects] = useState([]);

@@ -68,7 +68,7 @@ const Footer = () => {
             {/* <FaShopify color='red' size='40' /> */}
             <div className="w-[50px] h-[50px] rounded-full bg"></div>
             <h1 className="text-xl font-bold ml-2 text-primaryColor">
-              Muhammad Waqas
+              Abdul Waqas
             </h1>
           </div>
           <div className="text-center md:text-left mb-4 md:mb-0 flex gap-2">
@@ -83,13 +83,13 @@ const Footer = () => {
               <FaInstagram size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=61580701082993" target="_blank"
+              href="https://www.facebook.com/profile.php?id=100045892972953" target="_blank"
            
             >
               <FaFacebook size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />
             </a>
             <a
-              href="https://www.linkedin.com/in/muhammad-waqas-03a668323"
+              href="https://www.linkedin.com/in/abdul-waqas-03a668323/"
               target="_blank"
             >
               <FaLinkedin size="30" className="text-primaryColor hover:text-teal-600 transition-colors" />

@@ -3,13 +3,13 @@ import React from 'react';
 const EducationSection = () => {
   const educationData = [
     {
-      degree: "High School Certificate",
-      institution: "Govt. Science and Commerce College Karachi",
+      degree: "Intermediate",
+      institution: "Science and Commerce College Karachi",
       graduationYear: "2023-2025",
       details: "Pre-engineering",
     },
     {
-      degree: "Secondary School Certificate",
+      degree: "Matriculation",
       institution: "New Daisy Secondary School",
       graduationYear: "2023",
       details: "Science",
@@ -17,21 +17,22 @@ const EducationSection = () => {
     {
       degree: "Web and App Development",
       institution: "Saylani Mass IT Training",
-      graduationYear: "2024-2025",
-      details: "Mern Stack Developer",
+      graduationYear: "May 2024 - July 2025",
+      details: "IT Course",
     },
-    {
-      degree: "Certificate In Freelancing",
-      institution: "Digi Skills Training Program",
-      graduationYear: "2023",
-      details: "Freelancing",
-    },
-    {
-      degree: "MERN Stack Internship",
+      {
+      degree: "Frontend Developer Developer",
       institution: "Applotech",
-      graduationYear: "2025",
-      details: "Mern Stack Developer",
+      graduationYear: "June 2025 - Nov 2025",
+      details: "Remote Job",
     },
+    {
+      degree: "MERN Stack Developer",
+      institution: "SMIT Bootcamp 3.O",
+      graduationYear: "Nov 2025 - Continuing",
+      details: "Onsite Internship",
+    },
+  
   ];
 
   return (
